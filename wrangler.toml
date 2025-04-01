@@ -8,3 +8,5 @@ JWT_SECRET=112233445566aabbcc
 INIT_TABLE=true
 # 是否启用缓存
 ENABLE_CACHE=true
+database_id=42a54202-4991-4bcf-b696-555d83eb5340
+database_name=newsnow
