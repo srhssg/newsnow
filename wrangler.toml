@@ -1,12 +1,8 @@
-# Github Clien ID
-G_CLIENT_ID=
-# Github Clien Secret
-G_CLIENT_SECRET=
-# JWT Secret, 通常就用 Clien Secret
-JWT_SECRET=112233445566aabbcc
-# 初始化数据库, 首次运行必须设置为 true，之后可以将其关闭
-INIT_TABLE=true
-# 是否启用缓存
-ENABLE_CACHE=true
-database_id=42a54202-4991-4bcf-b696-555d83eb5340
-database_name=newsnow
+name = "newsnow"
+pages_build_output_dir = "dist/output/public"
+compatibility_date = "2024-10-03"
+
+[[d1_databases]]
+binding = "NEWSNOW_DB"
+database_name = "newsnow"
+database_id = "42a54202-4991-4bcf-b696-555d83eb5340"
